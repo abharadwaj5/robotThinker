@@ -1,4 +1,4 @@
-# Abhay Bharadwaj (Robot Thinker)
+# Abhay Bharadwaj (robotThinker)
 
 Robotics researcher/engineer experienced in **simulation and autonomous systems**, **product development**, **simulation-driven design**, and **embedded systems & IoT innovation**.  
 📍 Aachen, Germany  
