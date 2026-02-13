@@ -1,9 +1,9 @@
 # Abhay Bharadwaj (robotThinker)
 
 Robotics researcher/engineer experienced in **simulation and autonomous systems**, **product development**, **simulation-driven design**, and **embedded systems & IoT innovation**.  
-📍 Aachen, Germany  
 
 ## Contact
+📍 Aachen, Germany
 📧 abharadwaj1995@gmail.com  
 🔗 LinkedIn: linkedin.com/in/abhay-bharadwaj
 

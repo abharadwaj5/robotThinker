@@ -93,9 +93,45 @@ Designed and built a stand-alone particulate matter (PM) sensing system to evalu
 
 ---
 
-## Bachelor Thesis: Smart Irrigation using Raspberry Pi and IoT
-### Summary
-Built an irrigation system using soil moisture, temperature, and pH sensors, with relay-based automation through a Raspberry Pi and cloud-based monitoring.
+## Smart Irrigation and Soil Analysis Using Raspberry Pi and IoT
 
-### Notable Feature
-Mixed “water” and “medicine” in a **60:40 ratio** using timing across two relay-controlled flows.
+### Summary
+Developed an IoT-based smart irrigation and soil monitoring system using a **Raspberry Pi** as the central processing and control unit. The system continuously measured key environmental and soil parameters and used those readings to automate irrigation, while also generating cloud-hosted datasets that can help infer **soil characteristics** and support data-driven agricultural decisions.
+
+### System Goals
+- **Smart Irrigation Automation:** Irrigate only when needed based on soil moisture and surrounding conditions.
+- **Soil Understanding Through Data:** Use multi-sensor trends (before/after irrigation, environmental changes) to better understand soil behavior and potential soil type indicators.
+- **Decision Support For Farmers:** Enable cloud-based reporting that could be shared with agricultural departments to guide farmers on **crop suitability**, irrigation scheduling, and soil management.
+
+### Sensors and Hardware
+- **Soil Moisture Sensor:** Primary driver for irrigation decisions.
+- **Temperature Sensor:** Tracks ambient conditions influencing evapotranspiration.
+- **Humidity Sensor:** Adds environmental context for moisture loss and irrigation timing.
+- **Raspberry Pi:** Sensor acquisition, decision logic, and actuator control.
+
+### Cloud Data Pipeline
+- Integrated with a **MATLAB-based ThingSpeak module (ThingSpeak UTI)** to upload and visualize sensor data on the cloud.
+- Created time-series datasets (sensor readings before/after irrigation events) to support analysis of:
+  - **Moisture Retention Behavior**
+  - **Environmental Influence (Temperature/Humidity)**
+  - **Irrigation Response Patterns** relevant to soil characterization
+
+### Irrigation and Actuation Logic
+- Implemented irrigation using **Timed Relay Actuation**, enabling controlled water delivery based on sensor thresholds and predefined time windows.
+- Coordinated irrigation events with sensor logging to reduce overwatering and improve repeatability in collected data.
+
+### Integrated Fertigation Feature (Irrigation + Fertilizer In One System)
+- Extended the same irrigation hardware (Relays + Pipelines) to also deliver **Fertilizer** without requiring a separate system.
+- When fertilization was needed, the system automatically mixed **Water + Fertilizer** at a **60:40 ratio** using calibrated relay timing.
+- The mixed solution was then delivered through the **Same Relays** and **Same Irrigation Pipelines**, enabling fertilization to occur as part of the normal irrigation cycle.
+
+### Impact, Use Case, and Future Extensions
+This project demonstrates how low-cost sensing + cloud monitoring can be used not only for automated irrigation, but also for **Soil Behavior Profiling**. By sharing the collected datasets with agricultural departments or advisory services, farmers can receive guidance on:
+- **Crop Suitability** for local soil conditions
+- **Irrigation Frequency Recommendations**
+- **Soil Management Strategies** based on measured trends
+
+A natural next step is integrating additional soil-quality sensors such as an **NPK Sensor (Nitrogen, Phosphorus, Potassium)** to better quantify nutrient availability and further improve soil classification and crop planning recommendations.
+
+---
+
