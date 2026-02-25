@@ -1,5 +1,25 @@
 # Projects
 
+## Cattle Health Monitoring System
+
+### Summary
+Currently leading end-to-end development of an IoT-based cattle health monitoring platform, owning the hardware lifecycle from early requirements through **production-ready deployment**. The system is being designed to reliably capture physiological and behavioral signals in the field, transmit device data for analysis, and support early detection of health issues through data-driven insights.
+
+### What I Am Doing
+- **Defining System Architecture:** Translating product requirements into a complete system design, covering sensing, power, processing, data storage, and connectivity.
+- **Managing PCB Development End-to-End:** Driving the board from schematic and component selection through layout, prototyping, bring-up, and iterative improvements toward manufacturable hardware.
+- **Building For Production-Ready Deployment:** Making design decisions that account for real-world constraints such as robustness, power efficiency, and repeatable production/testing workflows.
+- **Enabling Data Pipelines For Analytics:** Structuring device data outputs to support downstream analysis and model training.
+
+### Machine Learning and Health Insights
+- Applying **machine learning techniques** to device data to extract meaningful patterns related to cattle health and activity.
+- Generating **actionable insights** (e.g., abnormal behavior indicators, trend deviations) to support system decision-making and potential early intervention workflows.
+
+### Current Focus / Direction
+- Advancing the platform toward a reliable field-ready design while connecting embedded telemetry to ML-driven interpretation, turning raw signals into practical health indicators.
+
+---
+
 ## SkillForAction (Horizon 2020)
 **Virtual Driver Model** for harvesting scenarios and prediction of fuel consumption and CO2 emissions  
 Website: https://etnskillforaction.com/
@@ -23,7 +43,6 @@ Built and integrated discrete-event simulation components as part of an experime
 **https://www.rivistasherwood.it**
 - **Prediction of Fuel Consumption in Forest Machines with the Application of Experimentable Digital Twins:** Abhay Bharadwaj, Michael Schluse, Arthur Wahl, Juergen Rossmann, ESM (European Simulation and Modelling Conference), October 2023 
 **https://doi.org/10.5281/zenodo.16737969**
-
 
 ---
 
