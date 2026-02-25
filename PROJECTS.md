@@ -7,7 +7,7 @@ Currently leading end-to-end development of an IoT-based cattle health monitorin
 
 ### What I Am Doing
 - **Defining System Architecture:** Translating product requirements into a complete system design, covering sensing, power, processing, data storage, and connectivity.
-- **Managing PCB Development End-to-End:** Driving the board from schematic and component selection through layout, prototyping, bring-up, and iterative improvements toward manufacturable hardware.
+- **PCB Development Oversight:** Overseeing schematic design, component selection, PCB layout, prototyping, bring-up, and iterative revisions toward manufacturable hardware.
 - **Building For Production-Ready Deployment:** Making design decisions that account for real-world constraints such as robustness, power efficiency, and repeatable production/testing workflows.
 - **Enabling Data Pipelines For Analytics:** Structuring device data outputs to support downstream analysis and model training.
 
