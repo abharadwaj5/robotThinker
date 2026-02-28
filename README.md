@@ -39,20 +39,27 @@ Robotics researcher/engineer experienced in **simulation and autonomous systems*
 ### Programming
 - **C++**, **Python**, **Embedded C/C++**
 - Bash scripting
+- VS PoweShell
 
 ### Robotics / Simulation
-- Dynamic Simulation
-- Discrete-Event Simulation
-- Petri Net Framework
-- Scenario Simulation
-- Digital Twins
+- Robotics Simulation (Dynamic & Discrete Event Simulation)
+- Experimentable Digital Twins
+- ROS2
+- Control Systems
+- State Machines
 - Simulation-to-Real Validation (IV&V mindset)
+- Digital Twins
+- Teleoperation
+- SLAM
+- PetriNet Framework
+- Scenario Simulation
 
 ### Embedded / IoT / Interfaces
 - Embedded Linux
+- **Microcontrollers (ARM, STM32)**, Micropeocessers based Sensor Fusion
 - Sensors, real-time data acquisition
 - **SPI / UART / I2C**
-- CAN, MQTT, ROS 2 (as applicable)
+- CAN, MQTT, Ethernet (as applicable)
 
 ### Machine Learning (applied)
 - Random Forest
