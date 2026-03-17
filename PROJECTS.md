@@ -46,17 +46,25 @@ Built and integrated discrete-event simulation components as part of an experime
 
 ---
 
-## OUTREACH
+## OUTREACH  
 Website: https://www.mmi.rwth-aachen.de/projekt/outreach/
 
-### Summary
-Coordination of heterogeneous forestry machines (e.g., harvesters with different crane arm lengths) operating in the same environment, aiming to reduce overlap and improve efficiency.
+### Summary  
+Coordination of heterogeneous forestry machines (e.g., harvesters with different crane reach) operating in the same environment to reduce overlap and improve efficiency.
 
-### What I did
-- Reconstructed a realistic simulation of a harvested forest site.
-- Designed experiments with two harvesters with varied reach capabilities.
-- Modeled coordination logic for task allocation and spatial positioning.
-- Evaluated efficiency using travel time and task distribution metrics.
+### What I did  
+- Reconstructed a realistic simulation of a harvested forest site and machine operating constraints.  
+- Designed experiments using two machines: a **normal harvester** (grab–fell–process) and an **outreach harvester** (grab–fell–pull/stage only).  
+- Modeled coordination logic for task allocation and spatial positioning to minimize interference and redundant travel.  
+- Evaluated performance using travel time, utilization, and task distribution metrics.  
+
+### Deployment Strategies  
+
+#### Strategy 1: Normal-First (Local Processing First)  
+The normal harvester processes all trees within reach by **grabbing, felling, and fully processing** them into logs. After local wood is cleared, the outreach harvester is deployed to **grab and fell** distal trees and **pull/stage stems** into the normal harvester’s working range. The normal harvester is then deployed again to **process the staged stems** into clean logs.
+
+#### Strategy 2: Outreach-First (Distal Clearance First)  
+The outreach harvester is deployed first to **grab and fell** distal or difficult-to-reach trees and **pull/stage stems** into a predefined processing corridor within the normal harvester’s range. The normal harvester follows and performs a consolidated pass: it **fells and processes** local trees within reach and also **processes the staged stems** into logs, improving processing continuity and overall log conversion.
 
 ---
 
