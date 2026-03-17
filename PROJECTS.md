@@ -58,6 +58,14 @@ Coordination of heterogeneous forestry machines (e.g., harvesters with different
 - Modeled coordination logic for task allocation and spatial positioning to minimize interference and redundant travel.  
 - Evaluated performance using travel time, utilization, and task distribution metrics.
 
+### Deployment Strategies  
+
+#### Strategy 1: Normal-First (Local Processing First)  
+The normal harvester processes all trees within reach by **grabbing, felling, and fully processing** them into logs. After local wood is cleared, the outreach harvester is deployed to **grab and fell** distal trees and **pull/stage stems** into the normal harvester’s working range. The normal harvester is then deployed again to **process the staged stems** into clean logs.
+
+#### Strategy 2: Outreach-First (Distal Clearance First)  
+The outreach harvester is deployed first to **grab and fell** distal or difficult-to-reach trees and **pull/stage stems** into a predefined processing corridor within the normal harvester’s range. The normal harvester follows and performs a consolidated pass: it **fells and processes** local trees within reach and also **processes the staged stems** into logs, improving processing continuity and overall log conversion.
+
 ---
 
 ## Clean Room Calibration of PM Sensor for Pollution Monitoring (Embedded Systems + Sensor Fusion)
