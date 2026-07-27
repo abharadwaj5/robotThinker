@@ -4,7 +4,6 @@ Robotics researcher/engineer experienced in **simulation and autonomous systems*
 
 ## Contact
 📍 Aachen, Germany
-/*📧 abharadwaj1995@gmail.com*/  
 🔗 LinkedIn: linkedin.com/in/abhay-bharadwaj
 
 ---
